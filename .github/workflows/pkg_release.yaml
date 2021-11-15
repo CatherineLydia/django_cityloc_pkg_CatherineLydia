@@ -9,7 +9,7 @@ jobs:
               run: echo Packaging citylocations for release!
 
             - name: Set ip Python 3.9
-            - uses: actions/setup-python@v1
+              uses: actions/setup-python@v1
               with:
                 python-version: 3.9
 
